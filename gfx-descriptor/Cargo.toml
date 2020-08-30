@@ -16,5 +16,5 @@ description = "gfx-hal descriptor allocator"
 [dependencies]
 arrayvec = "0.5"
 fxhash = "0.2"
-hal = { package = "gfx-hal", version = "0.6" }
+hal = { package = "gfx-hal", git = "https://github.com/gfx-rs/gfx.git", rev = "c9fcd08956eeddac8f6d85b02794fc5e3d1717f5" }
 log = "0.4"

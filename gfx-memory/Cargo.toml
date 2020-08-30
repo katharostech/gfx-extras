@@ -17,7 +17,7 @@ description = "gfx-hal memory allocator"
 
 [dependencies]
 fxhash = "0.2"
-hal = { package = "gfx-hal", version = "0.6" }
+hal = { package = "gfx-hal", git = "https://github.com/gfx-rs/gfx.git", rev = "c9fcd08956eeddac8f6d85b02794fc5e3d1717f5" }
 hibitset = { version = "0.6", default-features = false }
 log = "0.4"
 slab = "0.4"
